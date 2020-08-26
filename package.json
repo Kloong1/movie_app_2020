@@ -16,7 +16,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "deploy": "gh-pages"
+    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -33,5 +34,10 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://github.com/Kloong1/movie_app_2020"
+  
+  "resolutions": {
+    "react-dev-utils": "10.1.0"
+  },
+
+  "homepage": "https://kloong1.github.com/movie_app_2020"
 }
