@@ -11,6 +11,7 @@
     "prop-types": "^15.7.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "^3.4.3"
   },
   "scripts": {
@@ -34,10 +35,8 @@
       "last 1 safari version"
     ]
   },
-  
   "resolutions": {
     "react-dev-utils": "10.1.0"
   },
-
   "homepage": "https://kloong1.github.io/movie_app_2020"
 }
